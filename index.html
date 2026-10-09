@@ -1,0 +1,995 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="dark" />
+<meta name="description" content="Hemanth Narayana Allam — Manufacturing Engineer & Process Engineer. BIW tooling, stamping, NPI, Six Sigma and data-driven process improvement across EV, automotive and research." />
+<meta name="author" content="Hemanth Narayana Allam" />
+<!-- Link-preview metadata: when this page is pasted into LinkedIn or a message,
+     the card shows the engineer's name, role and summary like any personal site. -->
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Hemanth Narayana Allam — Manufacturing &amp; Process Engineer" />
+<meta property="og:description" content="Manufacturing Engineer at Lucid Motors. BIW tooling, stamping &amp; forming, NPI, Six Sigma and data-driven process improvement across EV, automotive and research." />
+<meta property="og:image" content="assets/hero-line.jpg" />
+<meta property="og:image:alt" content="Robotic framing station clamping a car body-in-white on an EV production line" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Hemanth Narayana Allam — Manufacturing &amp; Process Engineer" />
+<meta name="twitter:description" content="Manufacturing Engineer at Lucid Motors. BIW tooling, stamping &amp; forming, NPI, Six Sigma and data-driven process improvement." />
+<meta name="twitter:image" content="assets/hero-line.jpg" />
+<link rel="icon" href="data:," />
+<title>Hemanth Narayana Allam — Manufacturing &amp; Process Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    color-scheme: dark;
+    --bg:#0a0c0f;
+    --bg-2:#0e1116;
+    --panel:#11151c;
+    --panel-2:#161b24;
+    --line:#232a36;
+    --line-soft:#1a2029;
+    --ink:#e9edf2;
+    --ink-2:#a7b0bd;
+    --ink-3:#6d7787;
+    --accent:#ff7a1a;
+    --accent-deep:#d95d08;
+    --accent-ink:#14100b;
+    --accent-soft:rgba(255,122,26,.12);
+    --cyan:#57c7d4;
+    --grid-line:rgba(140,160,190,.055);
+    --shadow:0 24px 60px rgba(0,0,0,.5);
+    --head-font:"Barlow Condensed", "Arial Narrow", sans-serif;
+    --body-font:"Archivo", system-ui, -apple-system, sans-serif;
+    --mono-font:"JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+  /* Dark theme is the requested design for this portfolio (no auto light variant). */
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--body-font);
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  ::selection{ background:var(--accent); color:var(--accent-ink); }
+  a{ color:inherit; }
+  img{ display:block; max-width:100%; }
+  .wrap{ width:min(1240px, 100% - 2.5rem); margin-inline:auto; }
+  @media (max-width:640px){ .wrap{ width:calc(100% - 2rem); } }
+
+  .mono{ font-family:var(--mono-font); }
+  .spec-tag{
+    font-family:var(--mono-font);
+    font-size:.68rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    display:inline-flex; align-items:center; gap:.55rem;
+  }
+  .spec-tag::before{ content:""; width:26px; height:1px; background:var(--accent); }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    position:fixed; inset:0 0 auto 0; z-index:60;
+    border-bottom:1px solid var(--line-soft);
+    background:color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+  }
+  .topbar-in{ display:flex; align-items:center; justify-content:space-between; gap:1rem; height:60px; }
+  .brand{ display:flex; align-items:center; gap:.6rem; text-decoration:none; font-family:var(--mono-font); font-size:.8rem; letter-spacing:.08em; }
+  .brand .mark{
+    width:30px; height:30px; flex:none; display:grid; place-items:center;
+    background:var(--accent); color:var(--accent-ink);
+    font-family:var(--head-font); font-weight:700; font-size:.95rem; letter-spacing:.02em;
+    clip-path:polygon(0 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%);
+  }
+  .brand small{ color:var(--ink-3); display:block; font-size:.62rem; letter-spacing:.18em; }
+  .nav{ display:flex; gap:1.6rem; }
+  .nav a{
+    font-family:var(--mono-font); font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ink-2); text-decoration:none; padding:.3rem 0; position:relative;
+  }
+  .nav a::after{ content:""; position:absolute; left:0; bottom:0; height:2px; width:0; background:var(--accent); transition:width .25s ease; }
+  .nav a:hover, .nav a.active{ color:var(--ink); }
+  .nav a:hover::after, .nav a.active::after{ width:100%; }
+  .top-cta{
+    font-family:var(--mono-font); font-size:.72rem; letter-spacing:.1em; text-transform:uppercase;
+    text-decoration:none; border:1px solid var(--accent); color:var(--accent);
+    padding:.5rem .9rem; transition:background .2s ease, color .2s ease; white-space:nowrap;
+  }
+  .top-cta:hover{ background:var(--accent); color:var(--accent-ink); }
+  @media (max-width:860px){ .nav{ display:none; } }
+  @media (max-width:480px){ .brand small{ display:none; } }
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;
+    padding:9.5rem 0 0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
+      var(--bg);
+    background-size:56px 56px, 56px 56px, auto;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:""; position:absolute; inset:auto 0 0 0; height:180px;
+    background:linear-gradient(to bottom, transparent, var(--bg));
+    pointer-events:none;
+  }
+  .hero-grid{ display:grid; grid-template-columns:1.15fr .85fr; gap:3rem; align-items:start; position:relative; z-index:1; }
+  @media (max-width:960px){ .hero-grid{ grid-template-columns:1fr; } }
+  .hero h1{
+    font-family:var(--head-font); font-weight:700; text-transform:uppercase;
+    font-size:clamp(3.4rem, 8.5vw, 7.2rem); line-height:.92; letter-spacing:.005em;
+    margin:.9rem 0 0;
+  }
+  .hero h1 .outline{
+    color:transparent;
+    -webkit-text-stroke:1.5px var(--ink);
+  }
+  .hero h1 .accent-word{ color:var(--accent); }
+  .hero-role{
+    margin-top:1.4rem; display:flex; flex-wrap:wrap; gap:.5rem 1.4rem; align-items:center;
+    font-family:var(--mono-font); font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-2);
+  }
+  .hero-role .dot{ width:7px; height:7px; background:var(--accent); flex:none; }
+  .hero-lede{ margin-top:1.3rem; max-width:56ch; color:var(--ink-2); font-size:1.05rem; }
+  .hero-lede strong{ color:var(--ink); font-weight:600; }
+  .hero-ctas{ margin-top:2rem; display:flex; flex-wrap:wrap; gap:.8rem; }
+  .btn{
+    display:inline-flex; align-items:center; gap:.6rem;
+    font-family:var(--mono-font); font-size:.78rem; letter-spacing:.1em; text-transform:uppercase;
+    text-decoration:none; padding:.85rem 1.4rem; border:1px solid var(--line);
+    color:var(--ink); background:var(--panel);
+    clip-path:polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+    transition:transform .18s ease, border-color .18s ease, background .18s ease, color .18s ease;
+  }
+  .btn:hover{ transform:translateY(-2px); border-color:var(--accent); }
+  .btn.primary{ background:var(--accent); border-color:var(--accent); color:var(--accent-ink); font-weight:700; }
+  .btn.primary:hover{ background:var(--accent-deep); border-color:var(--accent-deep); }
+  .btn svg{ width:15px; height:15px; flex:none; }
+
+  .hero-photo{ position:relative; }
+  .hero-photo .frame{
+    position:relative; overflow:hidden; border:1px solid var(--line);
+    clip-path:polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 26px 100%, 0 calc(100% - 26px));
+    box-shadow:var(--shadow);
+  }
+  .hero-photo img{ width:100%; height:460px; object-fit:cover; filter:saturate(.82) contrast(1.05); }
+  @media (max-width:960px){ .hero-photo img{ height:320px; } }
+  .hero-photo .frame::after{
+    content:""; position:absolute; inset:0;
+    background:linear-gradient(200deg, transparent 55%, rgba(5,8,12,.55));
+    pointer-events:none;
+  }
+  .photo-cap{
+    position:absolute; left:14px; bottom:12px; z-index:2;
+    font-family:var(--mono-font); font-size:.64rem; letter-spacing:.14em; text-transform:uppercase; color:#e9edf2;
+    display:flex; align-items:center; gap:.5rem;
+  }
+  .photo-cap::before{ content:""; width:8px; height:8px; background:var(--accent); }
+  .corner{ position:absolute; width:18px; height:18px; border-color:var(--accent); border-style:solid; z-index:2; }
+  .corner.tl{ top:-9px; left:-9px; border-width:2px 0 0 2px; }
+  .corner.br{ bottom:-9px; right:-9px; border-width:0 2px 2px 0; }
+
+  .stat-strip{
+    margin-top:3.5rem; position:relative; z-index:1;
+    display:grid; grid-template-columns:repeat(4, 1fr);
+    border:1px solid var(--line); background:var(--panel);
+  }
+  @media (max-width:860px){ .stat-strip{ grid-template-columns:repeat(2, 1fr); } }
+  .stat{ padding:1.4rem 1.5rem 1.2rem; border-right:1px solid var(--line-soft); }
+  .stat:last-child{ border-right:0; }
+  @media (max-width:860px){ .stat:nth-child(2){ border-right:0; } .stat:nth-child(-n+2){ border-bottom:1px solid var(--line-soft); } }
+  .stat .num{
+    font-family:var(--head-font); font-weight:700; font-size:2.6rem; line-height:1; color:var(--ink);
+    display:flex; align-items:baseline; gap:.15rem;
+  }
+  .stat .num .suffix{ color:var(--accent); font-size:1.5rem; }
+  .stat .lbl{ margin-top:.45rem; font-family:var(--mono-font); font-size:.66rem; letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3); line-height:1.5; }
+
+  /* ---------- sections ---------- */
+  section{ padding:6rem 0; position:relative; }
+  .section-head{ display:flex; align-items:flex-end; justify-content:space-between; gap:2rem; margin-bottom:3rem; flex-wrap:wrap; }
+  .section-head h2{
+    font-family:var(--head-font); font-weight:700; text-transform:uppercase;
+    font-size:clamp(2.4rem, 5vw, 3.8rem); line-height:.95; margin:.7rem 0 0;
+  }
+  .section-head p{ max-width:46ch; color:var(--ink-2); margin:0; }
+
+  /* focus / chips */
+  .focus-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line-soft); border:1px solid var(--line-soft); }
+  @media (max-width:960px){ .focus-grid{ grid-template-columns:1fr; } }
+  .focus-cell{ background:var(--panel); padding:2rem 1.8rem; }
+  .focus-cell .idx{ font-family:var(--mono-font); font-size:.7rem; color:var(--accent); letter-spacing:.15em; }
+  .focus-cell h3{ font-family:var(--head-font); font-weight:600; text-transform:uppercase; font-size:1.45rem; letter-spacing:.02em; margin:.8rem 0 .6rem; line-height:1.05; }
+  .focus-cell p{ color:var(--ink-2); font-size:.94rem; margin:0; }
+
+  /* ---------- timeline ---------- */
+  .timeline{ position:relative; }
+  .timeline::before{
+    content:""; position:absolute; left:118px; top:8px; bottom:8px; width:1px; background:var(--line);
+  }
+  @media (max-width:760px){ .timeline::before{ left:7px; } }
+  .job{ position:relative; display:grid; grid-template-columns:96px 1fr; gap:2.4rem; padding:0 0 3.2rem; }
+  @media (max-width:760px){ .job{ grid-template-columns:1fr; gap:.6rem; padding-left:2rem; } }
+  .job .when{
+    font-family:var(--mono-font); font-size:.7rem; letter-spacing:.1em; color:var(--ink-3);
+    text-transform:uppercase; text-align:right; padding-top:.35rem; line-height:1.7;
+  }
+  @media (max-width:760px){ .job .when{ text-align:left; } }
+  .job .node{
+    position:absolute; left:118px; top:10px; width:15px; height:15px; margin-left:-7px;
+    background:var(--bg); border:2px solid var(--accent); transform:rotate(45deg); z-index:1;
+  }
+  @media (max-width:760px){ .job .node{ left:7px; } }
+  .job-card{
+    background:var(--panel); border:1px solid var(--line); padding:1.9rem 2rem;
+    clip-path:polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+  }
+  @media (max-width:640px){ .job-card{ padding:1.4rem 1.2rem; } }
+  .job-top{ display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; align-items:flex-start; }
+  .job h3{ font-family:var(--head-font); font-weight:600; text-transform:uppercase; font-size:1.9rem; line-height:1; margin:0; letter-spacing:.02em; }
+  .job .org{ font-family:var(--mono-font); font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin-top:.45rem; }
+  .job .loc{ font-family:var(--mono-font); font-size:.7rem; letter-spacing:.1em; color:var(--ink-3); text-transform:uppercase; white-space:nowrap; padding-top:.4rem; }
+  .job .summary{ color:var(--ink-2); margin:1rem 0 0; max-width:68ch; }
+  .job ul{ margin:1.1rem 0 0; padding:0; list-style:none; display:grid; gap:.55rem; }
+  .job li{ position:relative; padding-left:1.35rem; color:var(--ink-2); font-size:.95rem; }
+  .job li::before{ content:""; position:absolute; left:0; top:.52em; width:7px; height:7px; background:var(--accent); transform:rotate(45deg); }
+  .job li strong{ color:var(--ink); font-weight:600; }
+  .job .tags{ margin-top:1.3rem; display:flex; flex-wrap:wrap; gap:.45rem; }
+  .tag{
+    font-family:var(--mono-font); font-size:.64rem; letter-spacing:.1em; text-transform:uppercase;
+    border:1px solid var(--line); color:var(--ink-2); padding:.32rem .6rem; background:var(--bg-2);
+  }
+  .job .job-extra{ display:none; }
+  .job.expanded .job-extra{ display:grid; }
+  .toggle-btn{
+    margin-top:1.3rem; display:inline-flex; align-items:center; gap:.55rem;
+    font-family:var(--mono-font); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase;
+    background:none; border:1px solid var(--line); color:var(--ink); padding:.6rem 1rem; cursor:pointer;
+    transition:border-color .2s ease, color .2s ease;
+  }
+  .toggle-btn:hover{ border-color:var(--accent); color:var(--accent); }
+  .toggle-btn .chev{ transition:transform .25s ease; font-size:.6rem; }
+  .job.expanded .toggle-btn .chev{ transform:rotate(180deg); }
+  .job-photo{ margin-top:1.4rem; border:1px solid var(--line); overflow:hidden; }
+  .job-photo img{ width:100%; height:300px; object-fit:cover; filter:saturate(.85) contrast(1.04); }
+  @media (max-width:640px){ .job-photo img{ height:210px; } }
+
+  /* ---------- skills ---------- */
+  .skills-sec{ background:var(--bg-2); border-block:1px solid var(--line-soft); }
+  .filter-row{ display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:2rem; }
+  .filter-btn{
+    font-family:var(--mono-font); font-size:.7rem; letter-spacing:.1em; text-transform:uppercase;
+    background:var(--panel); color:var(--ink-2); border:1px solid var(--line);
+    padding:.6rem 1rem; cursor:pointer; transition:all .18s ease;
+  }
+  .filter-btn:hover{ color:var(--ink); border-color:var(--ink-3); }
+  .filter-btn.active{ background:var(--accent); border-color:var(--accent); color:var(--accent-ink); font-weight:700; }
+  .skill-card{
+    background:var(--panel); border:1px solid var(--line); padding:1.6rem 1.6rem 1.4rem; margin-bottom:1rem;
+    transition:opacity .3s ease, border-color .3s ease;
+  }
+  .skill-card.dim{ opacity:.28; }
+  .skill-card.hit{ border-color:var(--accent); }
+  .skill-card h3{
+    font-family:var(--head-font); font-weight:600; text-transform:uppercase; font-size:1.35rem;
+    margin:0 0 1rem; letter-spacing:.03em; display:flex; justify-content:space-between; align-items:baseline; gap:1rem;
+  }
+  .skill-card h3 .count{ font-family:var(--mono-font); font-size:.66rem; color:var(--ink-3); letter-spacing:.12em; }
+  .chips{ display:flex; flex-wrap:wrap; gap:.45rem; }
+  .chip{
+    font-size:.82rem; padding:.38rem .7rem; border:1px solid var(--line-soft);
+    background:var(--bg-2); color:var(--ink-2); transition:all .15s ease;
+  }
+  .chip:hover{ border-color:var(--accent); color:var(--ink); }
+  .cols-2{ columns:2; column-gap:1rem; }
+  @media (max-width:860px){ .cols-2{ columns:1; } }
+  .skill-card{ break-inside:avoid; }
+
+  /* marquee */
+  .marquee-band{ border-block:1px solid var(--line); background:var(--panel); overflow:hidden; padding:1.1rem 0; }
+  .marquee{ display:flex; gap:0; width:max-content; animation:scroll-x 36s linear infinite; }
+  .marquee span{
+    font-family:var(--head-font); font-weight:600; text-transform:uppercase; font-size:1.5rem; letter-spacing:.06em;
+    color:var(--ink-3); padding:0 1.6rem; white-space:nowrap; display:flex; align-items:center; gap:3.2rem;
+  }
+  .marquee span::after{ content:""; width:8px; height:8px; background:var(--accent); transform:rotate(45deg); flex:none; }
+  @keyframes scroll-x{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+
+  /* ---------- research ---------- */
+  .research-grid{ display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
+  @media (max-width:960px){ .research-grid{ grid-template-columns:1fr; } }
+  .research-photo{ position:relative; }
+  .research-photo .frame{
+    overflow:hidden; border:1px solid var(--line);
+    clip-path:polygon(24px 0, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 24px);
+    box-shadow:var(--shadow);
+  }
+  .research-photo img{ width:100%; height:430px; object-fit:cover; filter:saturate(.8) contrast(1.05); }
+  @media (max-width:640px){ .research-photo img{ height:280px; } }
+  .research-copy h3{
+    font-family:var(--head-font); font-weight:600; text-transform:uppercase;
+    font-size:clamp(1.9rem, 3.4vw, 2.7rem); line-height:1; margin:.7rem 0 1rem;
+  }
+  .research-copy p{ color:var(--ink-2); margin:0 0 1rem; }
+  .research-copy ul{ list-style:none; margin:1.2rem 0 0; padding:0; display:grid; gap:.6rem; }
+  .research-copy li{ position:relative; padding-left:1.35rem; color:var(--ink-2); font-size:.95rem; }
+  .research-copy li::before{ content:""; position:absolute; left:0; top:.52em; width:7px; height:7px; background:var(--cyan); transform:rotate(45deg); }
+  .research-copy li strong{ color:var(--ink); font-weight:600; }
+
+  /* ---------- education ---------- */
+  .edu-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+  @media (max-width:760px){ .edu-grid{ grid-template-columns:1fr; } }
+  .edu-card{ background:var(--panel); border:1px solid var(--line); padding:2rem; position:relative; overflow:hidden; }
+  .edu-card::before{ content:""; position:absolute; top:0; left:0; width:44px; height:4px; background:var(--accent); }
+  .edu-card .yr{ font-family:var(--mono-font); font-size:.7rem; letter-spacing:.14em; color:var(--accent); text-transform:uppercase; }
+  .edu-card h3{ font-family:var(--head-font); font-weight:600; text-transform:uppercase; font-size:1.7rem; line-height:1.05; margin:.7rem 0 .4rem; }
+  .edu-card p{ color:var(--ink-2); margin:0; font-size:.95rem; }
+
+  /* ---------- contact ---------- */
+  .contact-sec{
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
+      var(--bg-2);
+    background-size:56px 56px;
+    border-top:1px solid var(--line-soft);
+  }
+  .contact-grid{ display:grid; grid-template-columns:1.2fr .8fr; gap:3rem; }
+  @media (max-width:900px){ .contact-grid{ grid-template-columns:1fr; } }
+  .contact-grid h2{
+    font-family:var(--head-font); font-weight:700; text-transform:uppercase;
+    font-size:clamp(2.6rem, 6vw, 4.6rem); line-height:.95; margin:.8rem 0 1.2rem;
+  }
+  .contact-grid h2 .accent-word{ color:var(--accent); }
+  .contact-grid p{ color:var(--ink-2); max-width:52ch; }
+  .contact-rows{ display:grid; gap:0; border:1px solid var(--line); background:var(--panel); align-self:start; }
+  .contact-row{
+    display:flex; justify-content:space-between; align-items:center; gap:1rem;
+    padding:1.15rem 1.4rem; border-bottom:1px solid var(--line-soft); text-decoration:none;
+    transition:background .18s ease;
+  }
+  .contact-row:last-child{ border-bottom:0; }
+  a.contact-row:hover{ background:var(--panel-2); }
+  .contact-row .k{ font-family:var(--mono-font); font-size:.66rem; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); }
+  .contact-row .v{ font-family:var(--mono-font); font-size:.86rem; color:var(--ink); text-align:right; word-break:break-all; }
+  .contact-row .v.accent{ color:var(--accent); }
+  a.contact-row .v{ text-decoration:underline; text-decoration-color:var(--line); text-underline-offset:4px; }
+  a.contact-row:hover .v{ text-decoration-color:var(--accent); }
+  .open-cue{ color:var(--accent); font-size:.8rem; }
+  .copy-btn{
+    font-family:var(--mono-font); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase;
+    background:none; border:1px solid var(--line); color:var(--ink-2); padding:.45rem .7rem; cursor:pointer; flex:none;
+    transition:all .18s ease;
+  }
+  .copy-btn:hover{ border-color:var(--accent); color:var(--accent); }
+  .copy-btn.copied{ border-color:var(--cyan); color:var(--cyan); }
+
+  footer{ border-top:1px solid var(--line-soft); padding:1.6rem 0 2rem; }
+  .foot-in{ display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; font-family:var(--mono-font); font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); }
+
+  /* reveal — slide only; content is never opacity-hidden, so it is always
+     readable even before the entrance trigger fires */
+  .reveal{ transform:translateY(22px); transition:transform .65s ease; }
+  .reveal.in{ transform:none; }
+  .reveal.d1{ transition-delay:.08s; } .reveal.d2{ transition-delay:.16s; } .reveal.d3{ transition-delay:.24s; }
+  @media print{
+    .reveal{ opacity:1 !important; transform:none !important; }
+    .topbar{ position:static; }
+    .marquee{ animation:none; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .reveal{ opacity:1; transform:none; transition:none; }
+    .marquee{ animation:none; }
+    *{ transition:none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top">
+      <span class="mark">HA</span>
+      <span>H. N. ALLAM<small>MANUFACTURING ENG.</small></span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Primary">
+      <a href="#focus">Focus</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="top-cta" href="#contact">Get in touch</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- ============ HERO ============ -->
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="spec-tag reveal in">Manufacturing Engineer · Process Engineer</span>
+          <h1>
+            Hemanth<br />
+            <span class="outline">Narayana</span><br />
+            <span class="accent-word">Allam</span>
+          </h1>
+          <div class="hero-role">
+            <span>Body-in-White Tooling</span><span class="dot"></span>
+            <span>Stamping &amp; Forming</span><span class="dot"></span>
+            <span>Six Sigma Green Belt</span>
+          </div>
+          <p class="hero-lede">
+            I design, document and optimise production processes that hold
+            <strong>Safety, Rate, Quality and Cost</strong> — from BIW fixture design at
+            <strong>Lucid Motors</strong> to Six Sigma process quality at <strong>TATA Motors</strong>
+            and the Toyota Production System. Four-plus years across EV, automotive and
+            additive-manufacturing research, driven by data: OEE, SPC and Cpk, not guesswork.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#experience">View experience
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v16m0 0l-6-6m6 6l6-6"/></svg>
+            </a>
+            <a class="btn" href="#contact">Contact
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+            </a>
+            <a class="btn" href="tel:+16025523673">(602) 552-3673
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-3 2a13 13 0 005 5l2-3 5 2v4a2 2 0 01-2 2A17 17 0 013 6a2 2 0 012-2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo reveal d1">
+          <span class="corner tl"></span><span class="corner br"></span>
+          <div class="frame">
+            <img src="assets/hero-line.jpg" alt="Robotic framing station clamping a car body-in-white on an EV production line" />
+            <span class="photo-cap">BIW framing station · Robotic body shop</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stat-strip reveal">
+        <div class="stat">
+          <div class="num"><span class="count" data-target="4">4</span><span class="suffix">+</span></div>
+          <div class="lbl">Years across EV, automotive<br />&amp; research</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="suffix">−</span><span class="count" data-target="20">20</span><span class="suffix">%</span></div>
+          <div class="lbl">Production delays cut<br />at TATA Motors</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="suffix">−</span><span class="count" data-target="25">25</span><span class="suffix">%</span></div>
+          <div class="lbl">Non-conformances reduced<br />via PFMEA &amp; control plans</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="count" data-target="0">0</span></div>
+          <div class="lbl">PPAP rejections — first-pass<br />approval at Lucid Motors</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FOCUS ============ -->
+  <section id="focus">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="spec-tag">01 · What I do</span>
+          <h2>Engineering<br />Focus Areas</h2>
+        </div>
+        <p>Three disciplines, one goal: processes that launch clean and stay capable. Every engagement runs Safety, Rate, Quality and Cost as the scorecard.</p>
+      </div>
+      <div class="focus-grid">
+        <article class="focus-cell reveal">
+          <div class="idx">F—01</div>
+          <h3>Manufacturing Process Design</h3>
+          <p>Tooling and fixture layouts verified in CAD before steel is cut — GD&amp;T, tolerance stack-up and digital mockups to kill fitment issues upstream, plus line balancing, takt and material flow design.</p>
+        </article>
+        <article class="focus-cell reveal d1">
+          <div class="idx">F—02</div>
+          <h3>Quality &amp; Problem Solving</h3>
+          <p>DMAIC, 8D, 5-Why and Fishbone to find real root causes. PFMEA, control plans, SPC and Cpk studies that hold the fix — backed by APQP / PPAP discipline and ISO 9001 compliance.</p>
+        </article>
+        <article class="focus-cell reveal d2">
+          <div class="idx">F—03</div>
+          <h3>Data-Driven Improvement</h3>
+          <p>Python, SQL, Power BI and Minitab turned on OEE, cycle time and throughput — turning line data into decisions, and supplier audits into corrective actions that stick.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" style="padding-top:1rem;">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="spec-tag">02 · Career</span>
+          <h2>Work<br />Experience</h2>
+        </div>
+        <p>From the Toyota Production System floor in India to EV body-in-white launch in Arizona — with a research detour into metal additive manufacturing.</p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="job reveal">
+          <div class="when">Aug 2025<br />— Present</div>
+          <span class="node"></span>
+          <div class="job-card">
+            <div class="job-top">
+              <div>
+                <h3>Manufacturing Engineer</h3>
+                <div class="org">Lucid Motors</div>
+              </div>
+              <div class="loc">Arizona, USA</div>
+            </div>
+            <p class="summary">Owning tooling, fixtures and process validation for body-in-white (BIW) components through New Product Introduction — balancing performance, quality, cost and manufacturability with Design Engineering, tooling and production teams.</p>
+            <ul>
+              <li>Designed and verified <strong>manufacturing tooling, fixture layouts and digital mockups</strong> in SolidWorks/CAD, applying GD&amp;T and tolerance stack-up analysis to simulate assembly and resolve fitment issues before release.</li>
+              <li>Supported <strong>floor-level installation and validation</strong> of fixtures and tooling, confirming dimensional accuracy with production crews ahead of full production release.</li>
+              <li>Led cross-functional <strong>design trade-off discussions during NPI</strong> of BIW components, optimising sheet-metal forming and welding processes.</li>
+              <li>Worked with suppliers and equipment vendors through <strong>PPAP with IQ/OQ/PQ-aligned validation</strong> — first-pass approval with zero rejections.</li>
+            </ul>
+            <ul class="job-extra">
+              <li>Analysed and optimised <strong>injection moulding parameters</strong> (fill time, cooling cycle, pressure) to reduce warpage and sink marks while cutting cycle time.</li>
+              <li>Conducted <strong>incoming raw-material audits</strong> and supplier performance evaluations, driving corrective actions against engineering specifications.</li>
+              <li>Authored and maintained <strong>APQP documentation</strong> — DFMEA, PFMEA, Control Plans and Process Flow Diagrams.</li>
+              <li>Drove continuous improvement with <strong>DMAIC, RCA, 5-Why and Fishbone</strong> to eliminate recurring defects; trained and mentored newly onboarded engineers on quality ownership and Lean practice.</li>
+            </ul>
+            <button class="toggle-btn" type="button" aria-expanded="false">Show full scope <span class="chev">▾</span></button>
+            <div class="tags">
+              <span class="tag">BIW</span><span class="tag">NPI</span><span class="tag">SolidWorks</span><span class="tag">GD&amp;T</span><span class="tag">PPAP · IQ/OQ/PQ</span><span class="tag">PFMEA</span><span class="tag">DMAIC</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="job reveal">
+          <div class="when">Apr 2022<br />— Apr 2024</div>
+          <span class="node"></span>
+          <div class="job-card">
+            <div class="job-top">
+              <div>
+                <h3>Process Quality Engineer</h3>
+                <div class="org">TATA Motors</div>
+              </div>
+              <div class="loc">India</div>
+            </div>
+            <p class="summary">Six Sigma-driven process quality for composite and elastomeric components — PFMEA, control plans and PPAP packages that measurably cut delays and defects across the plant.</p>
+            <ul>
+              <li>Developed <strong>PFMEA, Control Plans and Process Flow Diagrams</strong> for composite and elastomeric parts — cutting production delays by <strong>20%</strong> and non-conformances by <strong>25%</strong>.</li>
+              <li>Prepared and submitted <strong>PPAP documentation</strong> for non-metallic components (clamps, blankets, sealing systems) to customer and AIAG standards.</li>
+              <li>Ran <strong>time-and-motion studies</strong> and takt-time adjustments that improved OEE, line balancing and throughput on critical operations.</li>
+              <li>Analysed KPIs in <strong>Python and Power BI</strong> to surface inefficiencies and drive data-backed process improvements.</li>
+            </ul>
+            <ul class="job-extra">
+              <li>Reviewed <strong>tooling and mould designs</strong> for manufacturability — draft angles, gate placement, material flow — minimising rework and tooling iterations.</li>
+              <li>Developed <strong>plant layouts and process designs</strong>, with equipment/tooling cost estimates and labour standards for investment decisions.</li>
+              <li>Supported internal, supplier and external audits; performed <strong>First Article Inspections</strong>; reviewed ECOs/ECNs through the plant's ERP/MES change control.</li>
+              <li>Verified material certifications, functional testing and dimensional reports — <strong>100% quality compliance</strong> for non-metallic materials.</li>
+            </ul>
+            <button class="toggle-btn" type="button" aria-expanded="false">Show full scope <span class="chev">▾</span></button>
+            <div class="job-photo">
+              <img src="assets/dies.jpg" alt="Automotive stamping press line with die storage racks in a production plant" />
+            </div>
+            <div class="tags">
+              <span class="tag">Six Sigma</span><span class="tag">PFMEA</span><span class="tag">PPAP / AIAG</span><span class="tag">OEE</span><span class="tag">Python · Power BI</span><span class="tag">FAI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="job reveal">
+          <div class="when">Mar 2021<br />— Mar 2022</div>
+          <span class="node"></span>
+          <div class="job-card">
+            <div class="job-top">
+              <div>
+                <h3>Manufacturing Engineer — Apprenticeship</h3>
+                <div class="org">Toyota Kirloskar Motors</div>
+              </div>
+              <div class="loc">India</div>
+            </div>
+            <p class="summary">Foundation year inside the Toyota Production System — workflow analysis, standardised work documentation and Lean problem-solving for sheet-metal and engine components.</p>
+            <ul>
+              <li>Analysed production workflows to find bottlenecks, applying <strong>Lean principles</strong> to streamline operations and reduce lead times.</li>
+              <li>Developed <strong>engineering drawings, process flow diagrams and control plans</strong> for sheet-metal and engine components.</li>
+              <li>Created and maintained <strong>routings, work instructions and control charts</strong> ensuring Toyota Production System (TPS) compliance.</li>
+              <li>Partnered cross-functionally on <strong>PFMEA, RCA and BOM</strong> updates using ERP tools.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">TPS</span><span class="tag">Lean</span><span class="tag">Control Plans</span><span class="tag">PFMEA</span><span class="tag">ERP / BOM</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="job reveal">
+          <div class="when">Jan 2025<br />— Apr 2026</div>
+          <span class="node"></span>
+          <div class="job-card">
+            <div class="job-top">
+              <div>
+                <h3>Graduate Research Assistant</h3>
+                <div class="org">Arizona State University</div>
+              </div>
+              <div class="loc">Arizona, USA</div>
+            </div>
+            <p class="summary">Simulation-driven materials research on laser powder bed fusion (LPBF) metal composites — linking powder feedstock to microstructure, failure behaviour and design guidelines. Detailed in the Research section below.</p>
+            <ul>
+              <li>Built and validated <strong>5 ABAQUS/Explicit finite-element models</strong> (Johnson-Cook plasticity/damage) against experimental data.</li>
+              <li>Cross-validated <strong>in-situ neutron diffraction</strong> data from Oak Ridge National Laboratory against simulation to confirm data integrity.</li>
+              <li>Delivered a formal technical thesis approved by a <strong>3-member faculty committee</strong>.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">LPBF</span><span class="tag">ABAQUS</span><span class="tag">FEA</span><span class="tag">Neutron Diffraction</span><span class="tag">316L + TiC</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee-band" aria-hidden="true">
+    <div class="marquee" id="marquee">
+      <span>DMAIC</span><span>PFMEA</span><span>PPAP</span><span>GD&amp;T</span><span>OEE</span><span>SPC / Cpk</span><span>DFM · DFA</span><span>IQ / OQ / PQ</span><span>Line Balancing</span><span>8D · 5-Why</span><span>Kaizen</span><span>Value Stream Mapping</span>
+    </div>
+  </div>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="skills-sec">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="spec-tag">03 · Toolbox</span>
+          <h2>Technical<br />Skills</h2>
+        </div>
+        <p>The full stack from die design to dashboards. Filter by discipline to see how each area breaks down.</p>
+      </div>
+
+      <div class="filter-row reveal" role="group" aria-label="Filter skills by category">
+        <button class="filter-btn active" type="button" data-filter="all">All skills</button>
+        <button class="filter-btn" type="button" data-filter="process">Process Engineering</button>
+        <button class="filter-btn" type="button" data-filter="forming">Stamping &amp; Forming</button>
+        <button class="filter-btn" type="button" data-filter="design">Design &amp; CAD</button>
+        <button class="filter-btn" type="button" data-filter="quality">Quality &amp; Lean</button>
+        <button class="filter-btn" type="button" data-filter="data">Data &amp; Systems</button>
+        <button class="filter-btn" type="button" data-filter="npi">NPI &amp; Docs</button>
+      </div>
+
+      <div class="cols-2" id="skillGrid">
+        <article class="skill-card reveal" data-cat="process">
+          <h3>Process Engineering <span class="count">07</span></h3>
+          <div class="chips">
+            <span class="chip">Process Design &amp; Optimisation</span><span class="chip">Process Balance</span><span class="chip">Material Flow</span><span class="chip">OEE</span><span class="chip">Cycle Time Reduction</span><span class="chip">Line Balancing</span><span class="chip">MES</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="forming">
+          <h3>Stamping &amp; Metal Forming <span class="count">07</span></h3>
+          <div class="chips">
+            <span class="chip">Stamping</span><span class="chip">Metal Forming</span><span class="chip">Deep Drawing</span><span class="chip">Roll Forming</span><span class="chip">Dies &amp; Tooling</span><span class="chip">Shop Layout</span><span class="chip">IQ / OQ / PQ Validation</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="design">
+          <h3>Mechanical Design &amp; Verification <span class="count">06</span></h3>
+          <div class="chips">
+            <span class="chip">Mechanical System Design</span><span class="chip">PFMEA / DFMEA</span><span class="chip">GD&amp;T</span><span class="chip">Tolerance Stack-Up</span><span class="chip">DFM / DFA</span><span class="chip">Design Trade-off Analysis</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="design">
+          <h3>CAD &amp; Simulation <span class="count">10</span></h3>
+          <div class="chips">
+            <span class="chip">SolidWorks</span><span class="chip">CATIA V5 / 3DEXPERIENCE</span><span class="chip">Creo</span><span class="chip">AutoCAD</span><span class="chip">Windchill PLM</span><span class="chip">ANSYS FEA</span><span class="chip">ABAQUS</span><span class="chip">Welding — MIG · TIG · Spot</span><span class="chip">Machining</span><span class="chip">Injection Moulding</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="quality">
+          <h3>Quality &amp; Problem Solving <span class="count">10</span></h3>
+          <div class="chips">
+            <span class="chip">DMAIC</span><span class="chip">8D</span><span class="chip">Root Cause Analysis</span><span class="chip">5-Why</span><span class="chip">Fishbone · Pareto</span><span class="chip">CAPA</span><span class="chip">APQP</span><span class="chip">PPAP</span><span class="chip">ISO 9001 · AS9100</span><span class="chip">First Article Inspection</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="quality">
+          <h3>Lean &amp; Inspection <span class="count">08</span></h3>
+          <div class="chips">
+            <span class="chip">Lean Manufacturing</span><span class="chip">Six Sigma — Green Belt</span><span class="chip">Kaizen</span><span class="chip">Poka-Yoke</span><span class="chip">Value Stream Mapping</span><span class="chip">CMM</span><span class="chip">3D Optical Inspection</span><span class="chip">NDT</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="data">
+          <h3>Data Analysis &amp; Systems <span class="count">11</span></h3>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Power BI</span><span class="chip">Minitab</span><span class="chip">MATLAB</span><span class="chip">VBA</span><span class="chip">SPC · Cpk Studies</span><span class="chip">SAP · Epicor · Plex</span><span class="chip">Teamcenter</span><span class="chip">MeasurLink</span><span class="chip">Cost Projections</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="npi">
+          <h3>NPI &amp; Engineering Documentation <span class="count">08</span></h3>
+          <div class="chips">
+            <span class="chip">New Product Introduction</span><span class="chip">Manufacturing Instructions</span><span class="chip">Routings</span><span class="chip">Control Plans</span><span class="chip">BOM</span><span class="chip">ECO / ECN</span><span class="chip">Change Point Management</span><span class="chip">Specification Management</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal" data-cat="npi">
+          <h3>Automation &amp; Leadership <span class="count">07</span></h3>
+          <div class="chips">
+            <span class="chip">PLC &amp; HMI — Schneider Electric</span><span class="chip">Process Automation</span><span class="chip">Program &amp; Vendor Management</span><span class="chip">Cross-Functional Leadership</span><span class="chip">Design &amp; Supplier Reviews</span><span class="chip">Stakeholder Management</span><span class="chip">Technical Mentoring</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section id="research">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="spec-tag">04 · Research</span>
+          <h2>Research<br />Spotlight</h2>
+        </div>
+        <p>Graduate research at Arizona State University, Jan 2025 – Apr 2026 — where process engineering meets materials science.</p>
+      </div>
+      <div class="research-grid">
+        <div class="research-photo reveal">
+          <div class="frame">
+            <img src="assets/lpbf.jpg" alt="Laser powder bed fusion process melting metal powder into complex lattice parts" />
+          </div>
+        </div>
+        <div class="research-copy reveal d1">
+          <span class="spec-tag">Arizona State University</span>
+          <h3>Process–Structure–Property in LPBF Metal Composites</h3>
+          <p>Characterised how powder feedstock parameters in a laser powder bed fusion (LPBF) metal matrix composite — ball-milled 316L + TiC — propagate through microstructure to mechanical performance, and where failures actually begin.</p>
+          <ul>
+            <li><strong>Root-cause failure analysis</strong> combining in-situ neutron diffraction with FE simulation — coarse-particle interfaces identified as preferential crack-initiation sites.</li>
+            <li><strong>5 ABAQUS/Explicit models</strong> built and validated with Johnson-Cook plasticity/damage criteria to predict yield, hardening and failure.</li>
+            <li><strong>Mesh-sensitivity study</strong> (0.35–1.4 µm elements) establishing convergence and repeatability before drawing engineering conclusions.</li>
+            <li>Mechanical response quantified across <strong>5 microstructural configurations</strong>, translated into design and process guidelines for reinforcement distribution.</li>
+            <li>Neutron diffraction data from <strong>Oak Ridge National Laboratory</strong> cross-validated against modelling — thesis approved by a 3-member faculty committee.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" style="padding-top:1rem;">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="spec-tag">05 · Education</span>
+          <h2>Education</h2>
+        </div>
+      </div>
+      <div class="edu-grid">
+        <article class="edu-card reveal">
+          <div class="yr">May 2026</div>
+          <h3>MS, Mechanical Engineering</h3>
+          <p>Arizona State University — Arizona, USA. Graduate research in additive manufacturing process–structure–property relationships.</p>
+        </article>
+        <article class="edu-card reveal d1">
+          <div class="yr">Bachelor's</div>
+          <h3>BE, Mechanical Engineering</h3>
+          <p>New Horizon College of Engineering — India.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact-sec">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="reveal">
+          <span class="spec-tag">06 · Contact</span>
+          <h2>Let's build a<br /><span class="accent-word">better process.</span></h2>
+          <p>Open to conversations on manufacturing engineering, process optimisation and NPI. Based in Tempe, Arizona — reach me directly by email or phone.</p>
+          <div class="hero-ctas" style="margin-top:1.8rem;">
+            <a class="btn primary" href="mailto:hemanthnarayana29@gmail.com?subject=Portfolio%20enquiry" title="Opens your email app">Send an email
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+            </a>
+            <a class="btn" href="tel:+16025523673">Call (602) 552-3673</a>
+          </div>
+        </div>
+        <div class="contact-rows reveal d1">
+          <a class="contact-row" href="mailto:hemanthnarayana29@gmail.com?subject=Portfolio%20enquiry" title="Opens your email app">
+            <span class="k">Email</span>
+            <span class="v">hemanthnarayana29@gmail.com <span class="open-cue" aria-hidden="true">↗</span></span>
+          </a>
+          <div class="contact-row">
+            <span class="k">Copy email</span>
+            <button class="copy-btn" type="button" id="copyEmail" data-email="hemanthnarayana29@gmail.com">Copy</button>
+          </div>
+          <a class="contact-row" href="tel:+16025523673">
+            <span class="k">Phone</span>
+            <span class="v">(602) 552-3673</span>
+          </a>
+          <div class="contact-row">
+            <span class="k">Location</span>
+            <span class="v">Tempe, Arizona, USA</span>
+          </div>
+          <div class="contact-row">
+            <span class="k">Current role</span>
+            <span class="v accent">Manufacturing Engineer · Lucid Motors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>© 2026 Hemanth Narayana Allam</span>
+    <a href="mailto:hemanthnarayana29@gmail.com?subject=Portfolio%20enquiry" title="Opens your email app" style="color:inherit; text-decoration:none;">hemanthnarayana29@gmail.com</a>
+    <span>Manufacturing · Process · Quality</span>
+    <span>Tempe, AZ</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---- Marquee: duplicate content for a seamless loop ---- */
+  var marquee = document.getElementById("marquee");
+  if (marquee) { marquee.innerHTML += marquee.innerHTML; }
+
+  /* ---- Reveal on scroll ---- */
+  var revealEls = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
+  function revealEl(el) { el.classList.add("in"); }
+  function inView(el, margin) {
+    var r = el.getBoundingClientRect();
+    return r.top < window.innerHeight + margin && r.bottom > -margin;
+  }
+  if (prefersReduced || !("IntersectionObserver" in window)) {
+    revealEls.forEach(revealEl);
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: "0px 0px 12% 0px" });
+    revealEls.forEach(function (el) { io.observe(el); });
+    /* Fallback: reveal anything already scrolled past, so content is never
+       stranded invisible if observer callbacks are missed. */
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        ticking = false;
+        revealEls.forEach(function (el) {
+          if (!el.classList.contains("in") && inView(el, 80)) el.classList.add("in");
+        });
+      });
+    }, { passive: true });
+    window.addEventListener("load", function () {
+      revealEls.forEach(function (el) { if (inView(el, 80)) el.classList.add("in"); });
+    });
+  }
+
+  /* ---- Animated counters ---- */
+  function animateCount(el) {
+    var target = parseInt(el.getAttribute("data-target"), 10) || 0;
+    if (prefersReduced || target === 0) { el.textContent = target; return; }
+    var start = null, duration = 1300;
+    function step(ts) {
+      if (!start) start = ts;
+      var p = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased);
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  var counters = document.querySelectorAll(".count");
+  if ("IntersectionObserver" in window && !prefersReduced) {
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) { animateCount(entry.target); cio.unobserve(entry.target); }
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(function (el) { cio.observe(el); });
+  } else {
+    counters.forEach(function (el) { el.textContent = el.getAttribute("data-target"); });
+  }
+
+  /* ---- Experience expanders ---- */
+  document.querySelectorAll(".toggle-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var card = btn.closest(".job");
+      var open = card.classList.toggle("expanded");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.firstChild.textContent = open ? "Show less " : "Show full scope ";
+    });
+  });
+
+  /* ---- Skill filtering ---- */
+  var filterBtns = document.querySelectorAll(".filter-btn");
+  var skillCards = document.querySelectorAll(".skill-card");
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      filterBtns.forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      var f = btn.getAttribute("data-filter");
+      skillCards.forEach(function (card) {
+        var match = f === "all" || card.getAttribute("data-cat") === f;
+        card.classList.toggle("dim", !match);
+        card.classList.toggle("hit", match && f !== "all");
+      });
+    });
+  });
+
+  /* ---- Copy email ---- */
+  var copyBtn = document.getElementById("copyEmail");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", function () {
+      var email = copyBtn.getAttribute("data-email");
+      function done() {
+        copyBtn.textContent = "Copied ✓";
+        copyBtn.classList.add("copied");
+        setTimeout(function () {
+          copyBtn.textContent = "Copy";
+          copyBtn.classList.remove("copied");
+        }, 2000);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).then(done).catch(function () { fallback(); });
+      } else { fallback(); }
+      function fallback() {
+        var ta = document.createElement("textarea");
+        ta.value = email; ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand("copy"); done(); } catch (e) { /* clipboard unavailable */ }
+        document.body.removeChild(ta);
+      }
+    });
+  }
+
+  /* ---- Scrollspy nav ---- */
+  var navLinks = document.querySelectorAll("#mainNav a");
+  var sections = [];
+  navLinks.forEach(function (link) {
+    var id = link.getAttribute("href");
+    if (id && id.charAt(0) === "#") {
+      var sec = document.querySelector(id);
+      if (sec) sections.push({ link: link, sec: sec });
+    }
+  });
+  if (sections.length && "IntersectionObserver" in window) {
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          navLinks.forEach(function (l) { l.classList.remove("active"); });
+          sections.forEach(function (s) {
+            if (s.sec === entry.target) s.link.classList.add("active");
+          });
+        }
+      });
+    }, { rootMargin: "-35% 0px -55% 0px" });
+    sections.forEach(function (s) { spy.observe(s.sec); });
+  }
+})();
+</script>
+</body>
+</html>
